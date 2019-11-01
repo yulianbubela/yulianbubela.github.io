@@ -227,8 +227,15 @@ h1,h2,h3,h4,h5,h6{
  .section__header{
      width: 100%;
      max-width: 950px;
-     margin: 0 auto 40px;
+     margin: 0 auto 50px;
      text-align: center ;
+ }
+
+ .section--devices{
+    background: url("../images/section__devices/intro__devices.jpg")
+    center no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
  }
 
  .section__suptitle{
@@ -357,10 +364,63 @@ h1,h2,h3,h4,h5,h6{
 
 .services__item{
     flex: 1 1 0;
-    padding-left: 90px;
+    padding-left: 85px;
+    padding-right: 35px;
+    position: relative;
+    
 }
 
+.services__icon{
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 1;
+}
 
+.services__title{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333 ;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.services__text{
+    font-size: 15px;
+    color: #999;
+    font-family:'Roboto', sans-serif; ;
+}
+
+hr{
+ 
+    background-color: #e5e5e5;
+    border: 0;
+    display: block;
+    height: 1px;
+    margin: 40px 0;
+    width: 100%;
+    
+}
+
+/*Devices*/
+
+.devices{
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.devices__item{
+    display: block;
+}    
+
+.devices__item--iphone{
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
+
+}
 
 
 
